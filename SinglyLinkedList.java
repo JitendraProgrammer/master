@@ -44,10 +44,10 @@ public class SinglyLinkedList {
 	public static void main(String[] args) {
 
 		SinglyLinkedList singly = new SinglyLinkedList();
-		singly.head = new Node(0);
-		Node sec = new Node(0);
-		Node third = new Node(6);
-		Node fourth = new Node(-0);
+		singly.head = new Node(10);
+		Node sec = new Node(6);
+		Node third = new Node(9);
+		Node fourth = new Node(7);
 
 		singly.head.next = sec;
 		sec.next = third;
